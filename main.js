@@ -257,7 +257,9 @@ await Actor.main(async () => {
 
     const googleMapsResult = await runScraper({
         name: 'googleMaps',
+ codex/create-apify-actor-pksite-superscraper-mptp6s
         actorId: 'apify/google-maps-scraper',
+
         mediaFolder: 'google-maps',
         input: googleMaps || brandName
             ? {
