@@ -192,7 +192,7 @@ async function collectFromGoogleMaps(googleMapsUrl, brandName) {
         includeImages: true,
     };
 
-    const rawItems = await runChildActor('compass/crawler-google-places', input);
+    const rawItems = await runChildActor('apify/google-maps-scraper', input);
     const normalized = [];
 
     for (const item of rawItems) {

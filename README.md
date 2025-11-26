@@ -27,5 +27,5 @@ It also saves a `RESULT` record in the key-value store with basic run metadata.
 - `apify/instagram-scraper`
 - `apify/facebook-posts-scraper`
 - `clockworks/tiktok-scraper`
-- `compass/crawler-google-places`
+- `apify/google-maps-scraper`
 - `apify/website-content-crawler`
