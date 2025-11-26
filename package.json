@@ -1,11 +1,15 @@
 {
   "name": "pksite-superscraper",
   "version": "1.0.0",
-  "description": "PKSite SuperScraper – vienas scraperis visiems socialams.",
-  "dependencies": {
-    "apify": "^3.0.0",
-    "adm-zip": "^0.5.10",
-    "node-fetch": "^3.3.2"
+  "description": "Apify actor that aggregates media and business data from multiple sources into unified outputs.",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
   },
-  "type": "module"
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "apify": "^3.0.0",
+    "node-fetch": "^3.3.2"
+  }
 }
